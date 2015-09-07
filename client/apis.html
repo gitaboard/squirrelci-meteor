@@ -1,0 +1,25 @@
+<template name="organizations">
+  {{> api}}
+
+  <h1>organizations</h1>
+</template>
+
+<template name="repositories">
+  {{> api}}
+
+  <h1>repositories</h1>
+</template>
+
+<template name="api">
+  <ul>
+    <li>
+      <a href="/api/v1/repositories">repositories</a>
+    </li>
+    <li>
+      <a href="/api/v1/organizations">organizations</a>
+    </li>
+    <li>
+      <a href="/api/v1/builds">builds</a>
+    </li>
+  </ul>
+</template>
